@@ -71,11 +71,12 @@
 }
 .about-me-heading{
     font-family: 'Lato', sans-serif;
+    
 }
 #about{
     color: black;
     position: relative;
-    padding: 50px;
+    padding: 100px;
     border-radius: 10px;
     text-align: adjust;
     box-sizing: border-box;
