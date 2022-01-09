@@ -3,6 +3,7 @@
 }
 #my-timeline .section-title{
 	margin-bottom:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #my-timeline .timeline-inner {
 	position: relative;
@@ -10,6 +11,8 @@
 }
 #my-timeline .timeline-inner:before{
 	content: "";
+    -webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
 	border-radius: 2px;
 	margin-left: -2px;
 	position: absolute;
@@ -31,6 +34,8 @@
 	padding: 25px;
 	width: 50%;
 	position: relative;
+    -webkit-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
+	-moz-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
 	box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
 }
 #my-timeline .single-main:nth-child(2n) .single-timeline .single-content {
@@ -99,4 +104,17 @@
 	left: 0%;
 	width: 50px;
 	height: 2px;
+}
+#my-timeline .section-icon{
+    display: flex;
+}
+#my-timeline .hr-line {
+	width: 50%;
+	position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #000;
+}
+#my-timeline .fa-briefcase{
+    position: relative;
+    top:6px;
 }
