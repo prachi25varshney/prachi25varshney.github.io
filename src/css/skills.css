@@ -1,0 +1,98 @@
+#skills{
+    background: #2c304a;
+    color : white;
+}
+#skills .skill-title{
+    margin-top:20px;
+    margin-bottom:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills .skill-icon{
+    display: flex;
+}
+#skills .skill-hr-line {
+    width: 50%;
+    margin: 15px;
+    border-bottom: 1px solid #fdfdfd;
+}
+#skills .fa-book{
+    position: relative;
+    top:6px;
+}
+#skills .fa-pencil{
+    position: relative;
+    top:6px;
+}
+
+#skills .progress-title{
+    display: flex;
+}
+
+.skillsBox{
+    padding: 30px 30px 30px 90px;
+    background: #f8f8f8;
+    color: #333;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.skillsBox:hover{
+    background: #645e9d;
+    color: #fff;
+}
+
+.skillsBox:after{
+    content: "";
+    display: block;
+    border-top: 500px solid #fff;
+    border-left: 500px solid transparent;
+    margin-top: -55%;
+    margin-left: 100%;
+    opacity: 0;
+    position: absolute;
+    transform: scale(2);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.skillsBox:hover:after{
+    margin-left: 0;
+    opacity: 0.1;
+}
+
+.skillsBox .service-icon{
+    font-size: 50px;
+    color: #645e9d;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    transition:all 0.3s ease-in-out 0s;
+}
+
+.skillsBox:hover .service-icon{
+    color: #fff;
+}
+
+.skillsBox .title{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    text-transform: capitalize;
+}
+
+.skillsBox .description{
+    font-size: 15px;
+    color: #a3a3a3;
+    line-height: 25px;
+    margin: 0;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.skillsBox:hover .description{
+    color: #fff;
+}
+
+@media only screen and (max-width: 990px){
+    .skillsBox{ margin-bottom: 15px; }
+}

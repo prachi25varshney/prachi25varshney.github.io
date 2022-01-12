@@ -15,7 +15,7 @@
     font-weight: 200;
     letter-spacing: 0.2rem;
     background: rgba(0,0,0,0.6) !important;
-    padding: 25px;
+    padding: 20px;
 }
 .navbar-dark .navbar-nav .nav-link{
     color: #fff;
@@ -76,10 +76,8 @@
     color: black;
     position: relative;
     padding: 100px;
-    border-radius: 10px;
-    text-align: adjust;
-    box-sizing: border-box;
-    border-width: 2px;
+    border-radius: 50px;
+    border-width: 5px;
     border-color: black;
     font: normal;
 }
