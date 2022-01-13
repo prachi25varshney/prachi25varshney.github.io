@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+#contact {
+    position: relative;
+    background: #363356;
+    color: white;
+    height: 52vh;
+}
+
+#contact .contact {
+    margin-top: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
+    padding: 30px;
+    height: 100px;
+}
+
+#contact .contact-title {
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+}
+
+#contact .divider{
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin: 0 5px;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);;
+    color: white;
+    margin: 0 5px;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+    margin: 0 5px;
+}
+
+.fa-medium {
+    background: white;
+    margin: 0 5px;
+}
+
+.fa-code {
+    background: #3c62af;
+    color: white;
+    margin: 0 5px;
+}
