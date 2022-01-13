@@ -6,4 +6,4 @@ This is my portfolio website.
 -- If you are also beginner, then you can also refer the code.
 
 
-------------------------------------------------------------------THANK YOU FOR VISITING --------------------------------------------------------------------------
+------------------------------THANK YOU FOR VISITING -----------------------------------
