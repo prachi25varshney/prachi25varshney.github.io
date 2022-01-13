@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 #contact {
     position: relative;
     background: #363356;
@@ -19,9 +20,10 @@
     padding-top: 30px;
 }
 
-#contact .divider{
+#contact .divider {
     color: white;
 }
+
 .fa-linkedin {
     background: #007bb5;
     color: white;

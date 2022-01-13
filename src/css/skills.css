@@ -1,34 +1,38 @@
-#skills{
+#skills {
     background: #d3d3f6;
 }
-#skills .skill-title{
-    margin-top:20px;
-    margin-bottom:30px;
+
+#skills .skill-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-family: 'monospace';
 }
 
-#skills .skill-icon{
+#skills .skill-icon {
     display: flex;
 }
+
 #skills .skill-hr-line {
     width: 50%;
     margin: 15px;
     border-bottom: 1px solid black;
 }
-#skills .fa-book{
+
+#skills .fa-book {
     position: relative;
-    top:6px;
-}
-#skills .fa-pencil{
-    position: relative;
-    top:6px;
+    top: 6px;
 }
 
-#skills .progress-title{
+#skills .fa-pencil {
+    position: relative;
+    top: 6px;
+}
+
+#skills .progress-title {
     display: flex;
 }
 
-.skillsBox{
+.skillsBox {
     padding: 30px 30px 30px 90px;
     background: #f8f8f8;
     color: #333;
@@ -37,12 +41,12 @@
     transition: all 0.3s ease-in-out 0s;
 }
 
-.skillsBox:hover{
+.skillsBox:hover {
     background: #645e9d;
     color: #fff;
 }
 
-.skillsBox:after{
+.skillsBox:after {
     content: "";
     display: block;
     border-top: 500px solid #fff;
@@ -55,32 +59,32 @@
     transition: all 0.3s ease-in-out 0s;
 }
 
-.skillsBox:hover:after{
+.skillsBox:hover:after {
     margin-left: 0;
     opacity: 0.1;
 }
 
-.skillsBox .service-icon{
+.skillsBox .service-icon {
     font-size: 50px;
     color: #645e9d;
     position: absolute;
     top: 40px;
     left: 20px;
-    transition:all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
-.skillsBox:hover .service-icon{
+.skillsBox:hover .service-icon {
     color: #fff;
 }
 
-.skillsBox .title{
+.skillsBox .title {
     font-size: 22px;
     font-weight: 700;
     margin: 0 0 12px 0;
     text-transform: capitalize;
 }
 
-.skillsBox .description{
+.skillsBox .description {
     font-size: 15px;
     color: #a3a3a3;
     line-height: 25px;
@@ -88,10 +92,12 @@
     transition: all 0.3s ease-in-out 0s;
 }
 
-.skillsBox:hover .description{
+.skillsBox:hover .description {
     color: #fff;
 }
 
-@media only screen and (max-width: 990px){
-    .skillsBox{ margin-bottom: 15px; }
+@media only screen and (max-width: 990px) {
+    .skillsBox {
+        margin-bottom: 15px;
+    }
 }

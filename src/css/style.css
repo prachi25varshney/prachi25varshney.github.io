@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
-.body{
+.body {
     margin: auto;
     padding: 0;
     box-sizing: border-box;
@@ -10,69 +10,78 @@
     font-family: 'Lato', sans-serif;
 }
 
-.navbar{
+.navbar {
     font-size: 15px;
     font-weight: 200;
     letter-spacing: 0.2rem;
-    background: rgba(0,0,0,0.6) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     padding: 20px;
 }
-.navbar-dark .navbar-nav .nav-link{
+
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
     padding: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #1ebba3;
 }
 
-.rounded-circle{
+.rounded-circle {
     padding: 50px 50px;
     position: relative;
-    height:400px;
+    height: 400px;
     width: 400px;
 }
 
-.heading-content{
+.heading-content {
     top: 40%;
     width: 100%;
     max-width: 100%;
     color: white;
 }
 
-.heading-content h5{
-   font-size: 2em;
-   font-weight: 400;
-   font-family: 'Moon Dance', cursive;
+.heading-content h5 {
+    font-size: 2em;
+    font-weight: 400;
+    font-family: 'Moon Dance', cursive;
 }
-.heading-content h1{
+
+.heading-content h1 {
     font-size: 3em;
     font-weight: bolder;
     font-family: 'Moon Dance', cursive;
- }
- .heading-content h2{
+}
+
+.heading-content h2 {
     font-size: 3em;
     font-weight: bolder;
     font-family: 'Dancing Script', cursive;
- }
-.fa-flag{
+}
+
+.fa-flag {
     color: #ffa500;
 }
-.fa-laptop{
+
+.fa-laptop {
     color: aquamarine;
 }
-.fa-leaf{
+
+.fa-leaf {
     color: green;
 }
-.fa-user{
+
+.fa-user {
     color: royalblue;
 }
-.about-me-heading{
+
+.about-me-heading {
     font-family: 'Lato', sans-serif;
-    
+
 }
-#about{
+
+#about {
     color: black;
     position: relative;
     padding: 100px;
