@@ -28,6 +28,10 @@
     color: #1ebba3;
 }
 
+.praying_hands {
+    position: relative;
+}
+
 .rounded-circle {
     padding: 50px 50px;
     position: relative;
@@ -55,7 +59,7 @@
 }
 
 .heading-content h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bolder;
     font-family: 'Dancing Script', cursive;
 }
